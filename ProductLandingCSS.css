@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css?family=Abel");
+
+body {
+  background-color: darkgrey;
+  font-family: "Abel", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 150px;
+  grid-gap: 50px;
+}
+
+.companylogo {
+  align-self: end;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+
+a:hover {
+  background-color: gray;
+}
+
+.container2 {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.vid {
+  grid-column: 1/3;
+}
+
+.attention1 {
+  grid-column: 3/4;
+}
+
+.recycle {
+  border-style: solid;
+  margin-bottom: 60px;
+  grid-column: 4/5;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.connect {
+  justify-self: center;
+}
+
+.toget {
+  justify-self: center;
+  grid-column: 2/2;
+}
+
+.form {
+  justify-self: center;
+  grid-column: 2/2;
+}
+
+#name {
+  border-style: solid;
+  font-size: 15px;
+}
+
+#email {
+  border-style: solid;
+  font-size: 15px;
+}
+
+#submit {
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.bttn {
+  transition-duration: 0.5s;
+  margin: 49px;
+}
+
+.bttn:hover {
+  background-color: green;
+}
+
+.share {
+  grid-column: 1/2;
+  grid-row: 1/-1;
+  justify-self: center;
+  height: 50px;
+}
+
+.container4 {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.story2 {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.benefits {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.youare {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.healthben {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.pricing_top {
+  text-align: center;
+  font-size: 24px;
+}
+
+.container5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.first {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.thirsty {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.second {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.parched {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.third {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.dehydrated {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.btn {
+  padding: 0 60px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.btn:hover {
+  background-color: green;
+}
+
+.container6 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  justify-items: right;
+}
+
+.privacy {
+  grid-column: 9 / 10;
+}
+
+.facebook {
+  grid-column: 10 / 11;
+}
+
+.twitter {
+  grid-column: 11 / 12;
+}
+
+.youtube {
+  grid-column: 12 / 13;
+}
+
+.container7 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+span {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .companylogo {
+    display: flex;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 140px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .btn {
+    margin-right: 30px;
+  }
+}
